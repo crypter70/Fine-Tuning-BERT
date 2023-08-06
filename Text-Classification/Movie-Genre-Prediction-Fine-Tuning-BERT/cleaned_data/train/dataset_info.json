@@ -1,0 +1,64 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 17465843,
+  "description": "",
+  "download_checksums": {
+    "/Users/crypter70/Documents/Code/project/Fine-Tuning-BERT/Movie-Genre-Prediction-Fine-Tuning-BERT/train-00000-of-00001-b943ea66e0040b18.parquet": {
+      "num_bytes": 7158165,
+      "checksum": null
+    },
+    "/Users/crypter70/Documents/Code/project/Fine-Tuning-BERT/Movie-Genre-Prediction-Fine-Tuning-BERT/test-00000-of-00001-35e9a9274361daed.parquet": {
+      "num_bytes": 4744067,
+      "checksum": null
+    }
+  },
+  "download_size": 11902232,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "movie_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "synopsis": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "genre": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "final_text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 29368075,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 10495479,
+      "num_examples": 54000,
+      "dataset_name": "parquet"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 6970364,
+      "num_examples": 36000,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
